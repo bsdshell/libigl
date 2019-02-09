@@ -6,3 +6,9 @@
 Documentation, tutorial, and instructions at <https://libigl.github.io>.
 
 :exclamation: **On October 15, 2018, a new, cleaned-up history was pushed onto the main libigl repository. To learn more about the consequences of this, and troubleshooting, please read [this page](https://libigl.github.io/rewritten-history/).**
+
+Run Your First Hello World
+
+```
+g++ -std=c++11 -I/usr/local/include/eigen3 -I/Users/cat/myfile/github/libigl/include/ Hello.cpp -o Hello
+```
